@@ -14,7 +14,7 @@
 
 
 
-### How to Try tlf2k:
+## How to Try tlf2k:
 musician_classification文件夹内是tlf2k任务的代码。
 
 - simple_prompt.py 是采用最简单直接的分类模板；
@@ -30,6 +30,10 @@ python simple_prompt.py
 python llm_vote.py
 python statistical_prompt.py
 ```
+### 可视化结果
+tlf2k任务中对每个流派的音乐家平均特征做了统计，可视化如下：
+![Music genre comparison](musician_classification/genre_comparison.png "Figur1– Music genre comparison")
+
 
 
 
